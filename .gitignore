@@ -1,0 +1,14 @@
+# Large data files
+*.pkl
+*.bgz
+*.zip
+*.crc
+*.jar
+*.log
+*.mt/
+results.mt/
+genebass_output/
+.DS_Store
+
+# Hail temp files
+*.hail_tmp*

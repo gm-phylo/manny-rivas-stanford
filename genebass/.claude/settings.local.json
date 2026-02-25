@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(conda info --envs)",
+      "Bash(pip3 list)",
+      "Bash(pip3 install --user 'numpy>=2.0')",
+      "WebFetch(domain:app.genebass.org)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:www.cell.com)",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.medrxiv.org)",
+      "WebFetch(domain:blog.opentargets.org)",
+      "WebFetch(domain:labs.icahn.mssm.edu)",
+      "Bash(pip3 install --user 'numpy<2')",
+      "Bash(git -C Manny-Rivas-Hail rev-parse --git-dir)",
+      "Bash(find /Users/gm/Documents/GitHub/Manny-Rivas-Hail -type f -exec du -h {} +)"
+    ]
+  }
+}
